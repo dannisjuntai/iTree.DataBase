@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="aa60a40d-2ff3-4e6a-b61b-85e72286a98d"
+  name="iTree.DataBase.Models.Group" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0a251db8-248e-420c-b587-51caa26de7de"
+        name="ItemSelect"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="3cf36730-1b25-4e14-919b-64685b7ff72d"
+            name="Locations"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="f92957f3-3a14-4c73-ad7f-af158900f6d3"
+                LastKnownName="List&lt;Groups&gt;"
+                LastKnownLocation="Package_0926.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6f63a69d-a619-453e-8a33-017cdfe2734a"
+            name="Areas"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="f92957f3-3a14-4c73-ad7f-af158900f6d3"
+                LastKnownName="List&lt;Groups&gt;"
+                LastKnownLocation="Package_0926.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f92957f3-3a14-4c73-ad7f-af158900f6d3"
+        name="List&lt;Groups&gt;" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

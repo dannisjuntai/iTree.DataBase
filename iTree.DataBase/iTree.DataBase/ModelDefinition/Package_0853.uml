@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="86c4fb54-22d4-4d82-978e-0ba4abff359b"
+  name="Repositories" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <suppliersInternal>
+    <dependency
+      Id="ebceba29-3a27-4617-a3bb-8cfcba6a1636">
+      <packageMoniker
+        Id="4408aecb-13ba-4a34-9fbd-70ad2daba98a"
+        LastKnownName="iTree.DataBase.Models.Tree"
+        LastKnownLocation="Package_0842.uml" />
+    </dependency>
+    <dependency
+      Id="9c508d8d-8df6-402f-bd18-7c34c5093e87">
+      <packageMoniker
+        Id="d627b4b5-cd3f-4bba-a197-884f7ed8d4db"
+        LastKnownName="iTree.DataBase.Entities"
+        LastKnownLocation="Package_0845.uml" />
+    </dependency>
+  </suppliersInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="eb9715bb-b1c3-453f-8b44-9c6735461f2c"
+        name="TreeRepository"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ae28d914-025b-4dbd-aa9a-52cac315d682"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f58bdb0f-7043-46a8-a55c-eec7604119b2">
+                <propertyInstance
+                  Id="2405709a-7091-4daa-9fd1-f9deddd43f6f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="092ea94d-c074-42c5-98a6-622af0b1be0d">
+                <propertyInstance
+                  Id="8f0e37fc-f6c6-4071-9d90-9cf9e9bae87d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d34ab091-35f5-44ec-bcdf-dcda40eec905">
+                <propertyInstance
+                  Id="ab58236e-e065-4e09-a977-45c332cd9d53"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11bba641-8f08-4444-9469-6a8487a951e3">
+                <propertyInstance
+                  Id="704df6cd-9c7f-4dab-8125-3bdee379ceab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc1f89b5-31dc-4cc3-aeae-8bd05e870840">
+                <propertyInstance
+                  Id="1198179d-af35-4cdc-b578-40c9eec990a7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="a195188d-246b-4b48-908f-fbefb0816263">
+            <packageMoniker
+              Id="4408aecb-13ba-4a34-9fbd-70ad2daba98a"
+              LastKnownName="iTree.DataBase.Models.Tree"
+              LastKnownLocation="Package_0842.uml" />
+          </dependency>
+          <dependency
+            Id="19a349bc-1e41-4f61-8a51-7e4f1925ff81">
+            <packageMoniker
+              Id="d627b4b5-cd3f-4bba-a197-884f7ed8d4db"
+              LastKnownName="iTree.DataBase.Entities"
+              LastKnownLocation="Package_0845.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b3662b69-fac0-48cc-ab48-ae788a5a51da"
+            name="GetTreeItems"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a7f0f82-4595-4267-a314-fcc2d250602f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c431a07-6720-4f54-b45c-c2ec89269eb8">
+                    <propertyInstance
+                      Id="5ffd5c05-ea51-4623-aa34-a40b71f3189e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f554fe6-c28b-4157-8fc5-1cb2abeb8385">
+                    <propertyInstance
+                      Id="15b0e42f-12d1-40b6-b632-6273325c2160"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffa13ead-c69a-4ca1-9e24-3d9103b0df02">
+                    <propertyInstance
+                      Id="54991cb3-e30b-4ffc-b6eb-8a85853675eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9e4f192-8367-435f-a63e-a410a5687d8e">
+                    <propertyInstance
+                      Id="501437b7-8639-41f1-ac68-6c7ae3965f22"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dafa525-b881-4340-b3dc-8d64f43b34a8">
+                    <propertyInstance
+                      Id="cb6f1044-b8ca-4a7a-977b-78869e45826e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af18ea46-b34a-4022-a9cf-c23e4d875db8">
+                    <propertyInstance
+                      Id="95fe0870-1463-4c52-98de-ec3cef94d5e8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed3b2bab-71c6-4ccb-a174-f2cdcb86699b"
+                  name="param"
+                  direction="In">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="1c051aa5-5ad8-4ff7-8a89-ba7adf745e85"
+                      LastKnownName="TreeItemParam"
+                      LastKnownLocation="iTree.DataBase.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

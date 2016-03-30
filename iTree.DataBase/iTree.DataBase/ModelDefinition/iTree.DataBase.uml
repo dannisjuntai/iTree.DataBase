@@ -1,8 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="c704d61a-ded7-472a-8935-db9a9e88e680"
   name="iTree.DataBase" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="b310af8e-4730-4091-8209-08d0cf3b4124"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="f6eba257-7368-4118-8ca6-ed9a9f6b8785">
+          <propertyInstance
+            Id="4c135fb0-1390-4d07-8e41-46ead2a16103"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="29f81aa1-a0d4-45db-9907-f2d050d90f56">
+          <propertyInstance
+            Id="ff16dad6-5dd7-4933-8dee-fc6c194ff30d"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="7c312afa-6573-4daa-b267-9b73a2f36ef6">
+          <propertyInstance
+            Id="ff8c6852-d081-4031-8e72-211691bfd684"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="481e098a-99c6-476d-ad3c-2517bf6b5607"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="7ef24e5f-894c-4af7-86f5-f9a7cad4c272">
+          <propertyInstance
+            Id="179d59e9-475a-4952-aec3-b4bca415befc"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="ff5db210-0459-493e-a98c-c14a966ce420">
+          <propertyInstance
+            Id="f9377d56-8a5d-41b8-b122-f0da9216fa6c"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="fecc22c1-2db4-47f5-91ea-dd9173024af9">
+          <propertyInstance
+            Id="7fb90462-f410-4289-9fe4-8914bf64b08e"
+            name="ProjectPath"
+            value="ClassTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|EnumTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|InterfaceTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|StructTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="ff42423c-c052-47d4-b12e-b237afd578f0">
+          <propertyInstance
+            Id="852fa927-baff-4fe6-bb72-45c1ae79130e"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0454cc41-0cda-41cc-92be-ffd44094fb83">
+          <propertyInstance
+            Id="38b0cd52-91c8-4265-a687-190e3c443a7e"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0f4828f9-055a-440a-a81e-fa7e8e32c4f8">
+          <propertyInstance
+            Id="c149f147-c326-4ada-943a-1c2b5e61bb97"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="92ccb96d-cbee-401d-9234-f293fba43ca7">
+          <propertyInstance
+            Id="d17fa891-23c0-44bd-8542-d5ca8c7d191c"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
   <profileInstances>
     <packageHasProfileInstances
       Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
@@ -16,36 +98,1116 @@
         Id="532ea607-fb19-44b8-8502-3351b05452be"
         name="StandardProfileL3" />
     </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="54cfd21d-3625-4c1a-ae18-e873c86cc1a6">
+      <profileInstance
+        Id="4102fbf4-e291-4427-85e3-42bb60dcb2ea"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e2324d99-91bd-4bd1-a43c-5c5459fcaff6">
+      <profileInstance
+        Id="d17e1b24-7854-4f85-a3f4-3c2bd718c791"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <class
-        Id="970bf2af-6954-4ad6-b6a2-06ad932158e0"
-        name="TreeItem"
+        Id="ce2ddd33-a2c2-4173-911f-a338fd76d99a"
+        name="items"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="2a837b0a-2272-4594-9c86-c12de9b67300"
+            isDerived="false"
+            sourceEndRoleName="items"
+            targetEndRoleName="treeFactory"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4f7968f2-7157-4b56-8dfa-cd37b09f3d11"
+              LastKnownName="treeFactory"
+              LastKnownLocation="iTree.DataBase.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3cc947cc-6830-4882-846b-64703f0b2e25"
+                  name="items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1685a000-2d55-4f58-92a3-616f312a6b1c"
+                  name="treeFactory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ce81007f-e270-428b-be65-112801d2cc4e"
+            isDerived="false"
+            sourceEndRoleName="items"
+            targetEndRoleName="groupFactory"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="8b64ec1c-2635-48ab-b42c-9f5606d3b47a"
+              LastKnownName="groupFactory"
+              LastKnownLocation="iTree.DataBase.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f02ca369-f49b-426a-9d53-60c96dea5009"
+                  name="items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4296dff5-3607-4d2b-b2e2-b646ca469e96"
+                  name="groupFactory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="4b515528-5a5e-419d-82e3-1f6288073f07"
-            name="TreeItem"
+            Id="dca26297-853f-49f3-b241-676f4d237a91"
+            name="vms"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1fccd2ed-9aa2-41bc-95fe-d4618ccc081c"
+            name="select"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7aaa9337-195f-4929-b765-f36c606edc67"
+            name="prevPage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="63b0c74a-7f4b-4350-b825-7947d4f0c4d4"
+            name="nextPage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7ef68477-3b7f-4e2a-be13-fc5342a86b1b"
+            name="setPage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="16a3d3c9-ba6d-4f5e-b454-930bda096e2a"
+            name="search"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f4081a95-261b-4487-b751-c97e9297f8b5"
+            name="changSelect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="aeb3b31f-d6d2-42cc-bbf7-f46e3807af5c"
+            name="getItemSelect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4f7968f2-7157-4b56-8dfa-cd37b09f3d11"
+        name="treeFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="0b04a699-e09b-4896-b2ab-38a4050fb34a"
+            isDerived="false"
+            sourceEndRoleName="treeFactory"
+            targetEndRoleName="TreeItemController"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="18e987dc-f376-4bd1-8f61-1ede94cd9418"
+              LastKnownName="TreeItemController"
+              LastKnownLocation="iTree.DataBase.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1fd588e-a934-4101-bc8e-8bc227fb6200"
+                  name="treeFactory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11e0ec20-f271-4cbb-be2c-48391c851247"
+                  name="TreeItemController"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="d2db1f73-f1a4-4150-8d54-a3f6d0be4551"
+            name="getTreeItems"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c4313b6f-2cd9-46d3-b41a-fb542c94d44d"
+                  name="param"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="58ccf613-bdbd-48d7-b285-6288a7523c75"
+                      LastKnownName="TreeItemParam"
+                      LastKnownLocation="Package_0842.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4408aecb-13ba-4a34-9fbd-70ad2daba98a"
+        LastKnownName="iTree.DataBase.Models.Tree"
+        LastKnownLocation="Package_0842.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d627b4b5-cd3f-4bba-a197-884f7ed8d4db"
+        LastKnownName="iTree.DataBase.Entities"
+        LastKnownLocation="Package_0845.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="18e987dc-f376-4bd1-8f61-1ede94cd9418"
+        name="TreeItemController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="99dba9ea-74e9-4004-b7ae-1ea53c63e629"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dddd377-3d1d-42cf-aec2-de4f3140724c">
+                <propertyInstance
+                  Id="67e44c24-d738-41c0-81c9-6b4e05ddde58"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5ace2dc-2b34-4f58-9ae9-4b7a2a641980">
+                <propertyInstance
+                  Id="f58de1ba-2874-42ba-bc85-be7f84950f90"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d939269-264d-4f28-b172-157ee2dbf788">
+                <propertyInstance
+                  Id="7eede2be-ff15-4c34-a18c-893bc89b4bbc"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76ba993f-a42a-4f5c-a9a9-17d110e893e2">
+                <propertyInstance
+                  Id="c98b9293-9af5-464f-bdc5-02a522f55735"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f9872a9-8d14-4f21-af85-fadfdf9d965f">
+                <propertyInstance
+                  Id="52f10d7b-4504-4efb-a342-b814bfeeee1b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="be81eb80-7abe-4348-9a03-6801ac5decb0">
+            <classMoniker
+              Id="eb9715bb-b1c3-453f-8b44-9c6735461f2c"
+              LastKnownName="TreeRepository"
+              LastKnownLocation="Package_0853.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c455ce2f-4959-48f8-a15f-274762ea8564"
+            name="GetTreeItems"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <description>查詢植栽基本集合</description>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="51a38d6e-0d8a-4099-bc66-599792f20387"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90d059a5-493a-4a0d-882d-451a1d2f7cd9">
+                    <propertyInstance
+                      Id="d66059b3-6673-43bb-8efa-20bb795ce8fe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59c4be97-2c0c-41fd-80b1-f0cb7ada21b3">
+                    <propertyInstance
+                      Id="27d0bac8-7f95-4e89-ad56-ec373c42b58e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a06b487-fc23-4f29-aea9-4ef9d210fc80">
+                    <propertyInstance
+                      Id="85366fd6-1457-4ecf-a903-4c20d50698de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e90b8c2b-f1ee-4e1b-9706-e6a52443aeec">
+                    <propertyInstance
+                      Id="48c041f3-e449-4a16-bef9-4b92292bb714"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8150ff5-1ef2-46fc-b547-11039ed6f3e2">
+                    <propertyInstance
+                      Id="4bfb2bfa-5e8f-4e6d-b504-d7b9544a2d01"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ca7c74d-b6e1-4496-855a-8227b82df540">
+                    <propertyInstance
+                      Id="a7354efb-dc24-4ae1-8011-bc200ccc9fe8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51110d58-a5dd-49f4-80cf-de465fe42cae"
+                  name="param"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="1c051aa5-5ad8-4ff7-8a89-ba7adf745e85"
+                      LastKnownName="TreeItemParam"
+                      LastKnownLocation="iTree.DataBase.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="86c4fb54-22d4-4d82-978e-0ba4abff359b"
+        LastKnownName="Repositories"
+        LastKnownLocation="Package_0853.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1c051aa5-5ad8-4ff7-8a89-ba7adf745e85"
+        name="TreeItemParam" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="90682b8a-f9cd-408f-a9d3-91baa892e2dc"
+        name="items"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="82984f41-1af5-4df4-946d-f384250f5871"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+                LastKnownName="treeFactory : treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="efd52378-387c-41e3-ad49-5a3d76d136b4"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="57436ad9-32bf-4451-bf5b-b01d483a9c26"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e54b2225-c0b6-4930-acf9-1e2a66fdc4d6"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="89e6fa95-4f81-4ff1-ade9-6f4ad55eac22"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="57436ad9-32bf-4451-bf5b-b01d483a9c26"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0d8ece1a-2b3d-485f-98e5-3d6d00430201"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+                LastKnownName="treeFactory : treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="23541a0d-394a-4ad7-9d21-65d029711ae1"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="34b0cf42-03e6-42fc-81e8-11b827edd17d"
+                LastKnownName="items : items"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e54b2225-c0b6-4930-acf9-1e2a66fdc4d6"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+                LastKnownName="treeFactory : treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="670f635a-22ea-40e9-ab2b-ff97d6c98eb8"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="03bf55c4-e103-4636-ba80-28269a6ae57e"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5c319f93-a760-49fc-b74b-02270c73aeec"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="9d7c128b-667a-43e5-9980-bf4ba50db9aa"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7a5d0507-087a-4b7a-9aa5-69d4297619ec"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="51550c0a-1005-4487-a1d6-4cef0e8dd1c9"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5c319f93-a760-49fc-b74b-02270c73aeec"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="117c092f-7524-4479-9eec-5a6e7d28c6ba"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="89e6fa95-4f81-4ff1-ade9-6f4ad55eac22"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+                LastKnownName="treeFactory : treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9d7c128b-667a-43e5-9980-bf4ba50db9aa"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cd24a790-07fc-411d-9c78-52719ea9242b"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+                LastKnownName="treeRepository : TreeRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0bd710a-2472-40e4-bdeb-ac16d4f3b7da"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b08e8d22-8e46-4aae-8bc0-b7a035f2271f"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="60b94305-64d0-4898-9508-62525fe553d9"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="722b5685-5fb5-4a64-a172-f4e5b8647c01"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b08e8d22-8e46-4aae-8bc0-b7a035f2271f"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b7478737-acd2-4894-a659-2badbae887af"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+                LastKnownName="treeRepository : TreeRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7a5d0507-087a-4b7a-9aa5-69d4297619ec"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="60b94305-64d0-4898-9508-62525fe553d9"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+                LastKnownName="treeRepository : TreeRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="efd52378-387c-41e3-ad49-5a3d76d136b4"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="91ef41e9-ad5c-4a2f-a34a-cc59e748b12f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+                LastKnownName="treeFactory : treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="722b5685-5fb5-4a64-a172-f4e5b8647c01"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+                LastKnownName="treeRepository : TreeRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="51550c0a-1005-4487-a1d6-4cef0e8dd1c9"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c0bd710a-2472-40e4-bdeb-ac16d4f3b7da"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d98e1ff6-cc59-4617-9904-cfe046202b30"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+                LastKnownName="treeRepository : TreeRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="03bf55c4-e103-4636-ba80-28269a6ae57e"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c18d9d72-83dd-40fc-a279-252805d4df0a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="iTree.DataBase.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eb07678c-e9f5-4234-9857-ca85127df232"
+                LastKnownName="treeItemController : TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="34b0cf42-03e6-42fc-81e8-11b827edd17d"
+            name="items : items"
+            isActor="true"
+            lifelineDisplayName="items : items">
+            <represents>
+              <propertyMoniker
+                Id="011dee60-c71c-4922-92eb-685541e5a293"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="23541a0d-394a-4ad7-9d21-65d029711ae1"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1e9150aa-cc2d-4b31-95b3-bc3d347079bd"
+            name="treeFactory : treeFactory"
+            isActor="false"
+            lifelineDisplayName="treeFactory : treeFactory">
+            <represents>
+              <propertyMoniker
+                Id="6906bd9d-d21c-42dc-aa0f-a66eed503965"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="57436ad9-32bf-4451-bf5b-b01d483a9c26"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="efd52378-387c-41e3-ad49-5a3d76d136b4"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="eb07678c-e9f5-4234-9857-ca85127df232"
+            name="treeItemController : TreeItemController"
+            isActor="false"
+            lifelineDisplayName="treeItemController : TreeItemController">
+            <represents>
+              <propertyMoniker
+                Id="282a9a26-fb6a-47fb-a97b-72698d1ab4a4"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="5c319f93-a760-49fc-b74b-02270c73aeec"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="03bf55c4-e103-4636-ba80-28269a6ae57e"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="54d35a63-d135-47e6-b459-cee04b9bfd8f"
+            name="treeRepository : TreeRepository"
+            isActor="false"
+            lifelineDisplayName="treeRepository : TreeRepository">
+            <represents>
+              <propertyMoniker
+                Id="8363245e-d926-4724-bc94-f58bd2996417"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b08e8d22-8e46-4aae-8bc0-b7a035f2271f"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="iTree.DataBase.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c0bd710a-2472-40e4-bdeb-ac16d4f3b7da"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="9c580e91-7d76-4d03-ac82-ebba241f771f"
+            name="init()"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="23541a0d-394a-4ad7-9d21-65d029711ae1"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e54b2225-c0b6-4930-acf9-1e2a66fdc4d6"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8996ae8d-232a-4c45-902c-e342b8db3b82"
+            name="getSelect()"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="89e6fa95-4f81-4ff1-ade9-6f4ad55eac22"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9d7c128b-667a-43e5-9980-bf4ba50db9aa"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e86f787a-efdb-4233-a038-322e99da60b3"
+            name="GetSelect()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7a5d0507-087a-4b7a-9aa5-69d4297619ec"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="60b94305-64d0-4898-9508-62525fe553d9"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f22ea779-15c8-40e8-bca8-85970f059408"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="722b5685-5fb5-4a64-a172-f4e5b8647c01"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="51550c0a-1005-4487-a1d6-4cef0e8dd1c9"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="011dee60-c71c-4922-92eb-685541e5a293"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ce2ddd33-a2c2-4173-911f-a338fd76d99a"
+                LastKnownName="items"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6906bd9d-d21c-42dc-aa0f-a66eed503965"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="4f7968f2-7157-4b56-8dfa-cd37b09f3d11"
+                LastKnownName="treeFactory"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="282a9a26-fb6a-47fb-a97b-72698d1ab4a4"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="18e987dc-f376-4bd1-8f61-1ede94cd9418"
+                LastKnownName="TreeItemController"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8363245e-d926-4724-bc94-f58bd2996417"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="eb9715bb-b1c3-453f-8b44-9c6735461f2c"
+                LastKnownName="TreeRepository"
+                LastKnownLocation="Package_0853.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0d8ece1a-2b3d-485f-98e5-3d6d00430201"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="91ef41e9-ad5c-4a2f-a34a-cc59e748b12f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="117c092f-7524-4479-9eec-5a6e7d28c6ba"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c18d9d72-83dd-40fc-a279-252805d4df0a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b7478737-acd2-4894-a659-2badbae887af"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d98e1ff6-cc59-4617-9904-cfe046202b30"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8b64ec1c-2635-48ab-b42c-9f5606d3b47a"
+        name="groupFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="644d8899-e136-40e0-a59a-27ebec241b50"
+            isDerived="false"
+            sourceEndRoleName="groupFactory"
+            targetEndRoleName="GroupController"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="38100719-1535-447e-9db1-c4c2206ff66d"
+              LastKnownName="GroupController"
+              LastKnownLocation="iTree.DataBase.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="256df34e-72a5-4354-b881-b1d2c09913c9"
+                  name="groupFactory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d8b27ed3-3ee2-4e8c-98d7-373e554ab413"
+                  name="GroupController"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="d841a7a5-bca2-431e-9291-d4c4955c6f5b"
+            name="getItemSelect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="ce2ddd33-a2c2-4173-911f-a338fd76d99a"
-        name="Class1"
+        Id="38100719-1535-447e-9db1-c4c2206ff66d"
+        name="GroupController"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="e4bb0a93-73c4-4b38-902d-7d49f126c0ee">
+            <classMoniker
+              Id="eb9c36c5-691e-4f90-addf-1fdeba3fa57f"
+              LastKnownName="GroupRepository"
+              LastKnownLocation="iTree.DataBase.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="0c958133-6b62-48aa-9b3e-90e8046dcfc5"
+            name="repository"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="eb9c36c5-691e-4f90-addf-1fdeba3fa57f"
+                LastKnownName="GroupRepository"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c1651348-1259-40d2-87da-6d1e7b62a898"
+            name="getItemSelect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="aa60a40d-2ff3-4e6a-b61b-85e72286a98d"
+        LastKnownName="iTree.DataBase.Models.Group"
+        LastKnownLocation="Package_0926.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb9c36c5-691e-4f90-addf-1fdeba3fa57f"
+        name="GroupRepository"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="5093e592-0dd2-4e97-84ab-62109524ae1b">
+            <packageMoniker
+              Id="aa60a40d-2ff3-4e6a-b61b-85e72286a98d"
+              LastKnownName="iTree.DataBase.Models.Group"
+              LastKnownLocation="Package_0926.uml" />
+          </dependency>
+          <dependency
+            Id="64ae0838-ea69-4c49-84a1-2e4f91950d8d">
+            <packageMoniker
+              Id="d627b4b5-cd3f-4bba-a197-884f7ed8d4db"
+              LastKnownName="iTree.DataBase.Entities"
+              LastKnownLocation="Package_0845.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
