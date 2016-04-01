@@ -6,24 +6,24 @@
   <MessageClass Name="Error" Label="錯誤" Option="顯示錯誤" />
   <MessageClass Name="Property" Label="屬性" Option="顯示中繼資料" />
   <MessageClass Name="Diagnostic" Label="訊息" Option="顯示診斷訊息" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="High" Text="程式碼產生或文字轉換已啟動。" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="名稱 = ClassTemplate" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="覆寫 = True" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="ProjectPath = ..\iTree.DataBaseLib\iTree.DataBaseLib.csproj" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Medium" Text="iTree.DataBase'的文字範本繫結 'ClassTemplate' 會將 ClassTemplate.t4 套用至 'iTree.DataBase::Repositories::TreeRepository' -  (Class) " />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Medium" Text="'iTree.DataBase::Repositories::TreeRepository' -  (Class) : 成功 (已取代檔案) - O:\Projects\UML\iTree\iTree.DataBase\iTree.DataBaseLib\GeneratedCode\Repositories\TreeRepository.cs" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="名稱 = StructTemplate" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="覆寫 = True" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="ProjectPath = ..\iTree.DataBaseLib\iTree.DataBaseLib.csproj" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Medium" Text="iTree.DataBase'的文字範本繫結 'StructTemplate' 會將 StructTemplate.t4 套用至 'iTree.DataBase::Repositories::TreeRepository' -  (Class) " />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="Diagnostic" Text="'iTree.DataBase::Repositories::TreeRepository' -  (Class):  沒有產生檔案，因為範本 'StructTemplate.t4' 的 'AppliesToElement' 方法評估為 false。" />
-  <Message Timestamp="2016-03-30T09:10:13" Importance="High" Text="程式碼產生完成。錯誤:  0。警告:  0。" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="High" Text="程式碼產生或文字轉換已啟動。" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="名稱 = ClassTemplate" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="覆寫 = True" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="ProjectPath = ..\iTree.DataBaseLib\iTree.DataBaseLib.csproj" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Medium" Text="iTree.DataBase'的文字範本繫結 'ClassTemplate' 會將 ClassTemplate.t4 套用至 'iTree.DataBase::TreeRepository' -  (Class) " />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Medium" Text="'iTree.DataBase::TreeRepository' -  (Class) : 成功 (已取代檔案) - O:\Projects\UML\iTree\iTree.DataBase\iTree.DataBaseLib\GeneratedCode\TreeRepository.cs" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="名稱 = StructTemplate" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="覆寫 = True" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="ProjectPath = ..\iTree.DataBaseLib\iTree.DataBaseLib.csproj" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Medium" Text="iTree.DataBase'的文字範本繫結 'StructTemplate' 會將 StructTemplate.t4 套用至 'iTree.DataBase::TreeRepository' -  (Class) " />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="Diagnostic" Text="'iTree.DataBase::TreeRepository' -  (Class):  沒有產生檔案，因為範本 'StructTemplate.t4' 的 'AppliesToElement' 方法評估為 false。" />
+  <Message Timestamp="2016-03-30T15:57:51" Importance="High" Text="程式碼產生完成。錯誤:  0。警告:  0。" />
 </Log>

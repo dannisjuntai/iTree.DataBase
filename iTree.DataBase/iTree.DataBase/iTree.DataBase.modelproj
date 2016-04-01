@@ -22,35 +22,58 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="items.sequencediagram">
+    <Content Include="Entities.ClassDiagram.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="items.sequencediagram.layout">
+    <Content Include="Entities.ClassDiagram.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>items.sequencediagram</DependentUpon>
+      <DependentUpon>Entities.ClassDiagram.classdiagram</DependentUpon>
     </Content>
-    <Content Include="ModelDefinition\Package_0842.uml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ModelDefinition\Package_0845.uml">
+    <Content Include="ModelDefinition\Package_1000.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModelDefinition\Package_0853.uml">
+    <Content Include="ModelDefinition\Package_1012.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModelDefinition\Package_0926.uml">
+    <Content Include="ModelDefinition\Package_1018.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Tree.classdiagram">
+    <Content Include="Models.ClassDiagram.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Tree.classdiagram.layout">
+    <Content Include="Models.ClassDiagram.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>Tree.classdiagram</DependentUpon>
+      <DependentUpon>Models.ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_0945.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="view\tree\add.SequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="view\tree\add.SequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>view\tree\add.SequenceDiagram1.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="view\tree\items.ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="view\tree\items.ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>view\tree\items.ClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="view\tree\items.SequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="view\tree\items.SequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>view\tree\items.SequenceDiagram1.sequencediagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\iTree.DataBase.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="view" />
+    <Folder Include="view\tree" />
   </ItemGroup>
 </Project>

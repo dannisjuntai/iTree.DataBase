@@ -4,18 +4,25 @@
 //     如果重新產生程式碼，將會遺失此檔案的變更。
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace iTree.DataBas.Repositories
+namespace Models.Tree
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class TreeRepository
+	public class TreeItemsViewModel
 	{
-		public virtual void GetTreeItems(TreeItemParam param)
+		public virtual TreeItemViewModel Items
 		{
-			throw new System.NotImplementedException();
+			get;
+			set;
+		}
+
+		public virtual decimal PagedItems
+		{
+			get;
+			set;
 		}
 
 	}

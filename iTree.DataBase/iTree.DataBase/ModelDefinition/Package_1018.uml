@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
-  Id="aa60a40d-2ff3-4e6a-b61b-85e72286a98d"
-  name="iTree.DataBase.Models.Group" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
-  <packagedElements>
-    <packageHasNamedElement>
-      <undefinedType
-        Id="f92957f3-3a14-4c73-ad7f-af158900f6d3"
-        name="List&lt;Groups&gt;" />
-    </packageHasNamedElement>
-  </packagedElements>
-</package>
+  Id="b19d84f4-c28e-4980-8297-1e40217155d2"
+  name="Models.Group" xmlns="http://schemas.microsoft.com/dsltools/ModelStore" />

@@ -4,22 +4,23 @@
 //     如果重新產生程式碼，將會遺失此檔案的變更。
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace iTree.DataBase.Models
+namespace Models.Tree
 {
+	using Entities;
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Text;
 
-	public class PageParam
+	public class TreeItemViewModel
 	{
-		public virtual int ItemsPerPage
+		public virtual TreeItems Item
 		{
 			get;
 			set;
 		}
 
-		public virtual int CurrentPage
+		public virtual List<iTree.DataBase::Entities::TreeImages> Images
 		{
 			get;
 			set;
