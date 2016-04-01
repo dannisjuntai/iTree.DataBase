@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7a340ece-3c1f-4699-8435-89ba59de99bf"
+  name="Web.Controller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="549ba730-6c3f-43b2-a1c8-3b9b4b500af3"
+        name="EventController"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="c0dd5da0-cd36-4acd-a9c6-c6f6344f01e3"
+            name="GetEventSets"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <description>取得代辦案件集合</description>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="743d17ae-2724-46bb-8a04-ac76ee8752fd"
+                  name="param"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d79adf49-b726-4334-937a-f1de581f09b2"
+                      LastKnownName="EventSetParam"
+                      LastKnownLocation="Package_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56b636c7-c002-4cd1-a0a5-338047da8949"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="18cc69dd-35a6-4078-8d18-0d660786b784"
+                      LastKnownName="EventSetsViewModel"
+                      LastKnownLocation="Package_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="57dc4a17-e6df-4044-b413-8771aa762fee"
+            name="GetEventSet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <description>取得代辦案件資料</description>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45bec106-2bc8-49b3-82bc-e56c5f394a59"
+                  name="eventId"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="iTree.DataBase.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0c634df6-e51f-4e3b-b9d0-8c3b074348f9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="56ccafc0-d923-421c-8e28-8c486ebe328c"
+                      LastKnownName="EventSetViewModel"
+                      LastKnownLocation="Package_0950.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

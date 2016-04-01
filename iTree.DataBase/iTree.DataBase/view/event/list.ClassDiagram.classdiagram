@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="575dbf65-5642-49e5-8a57-4e77ba4ba9b4" name="list.ClassDiagram" linkedPackageId="e7494551-87ce-4df4-a155-2f80aeebe646" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="ef0277a1-4805-4ab7-b208-528065ab38c8" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="b310af8e-4730-4091-8209-08d0cf3b4124" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="820297eb-84aa-4aff-8098-efbfa770900d">
+          <propertyInstance Id="8d3b5a85-e431-44a1-8cd4-48c213d1ec87" name="BaseName">
+            <elementDefinition Id="4c135fb0-1390-4d07-8e41-46ead2a16103" />
+          </propertyInstance>
+          <elementDefinition Id="f6eba257-7368-4118-8ca6-ed9a9f6b8785" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f399b0f9-6e9a-43c6-868d-ea1ae1bd39bc">
+          <propertyInstance Id="43fb0d12-32f1-419d-bea0-429ddf1d0d85" name="ClrAttributes">
+            <elementDefinition Id="ff16dad6-5dd7-4933-8dee-fc6c194ff30d" />
+          </propertyInstance>
+          <elementDefinition Id="29f81aa1-a0d4-45db-9907-f2d050d90f56" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4d28bf9c-bd7b-44e7-98e7-924a21e05d27">
+          <propertyInstance Id="b69901f8-c69d-402d-a142-3ad0314cea90" name="Usings">
+            <elementDefinition Id="ff8c6852-d081-4031-8e72-211691bfd684" />
+          </propertyInstance>
+          <elementDefinition Id="7c312afa-6573-4daa-b267-9b73a2f36ef6" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="565fe984-ca01-404e-b3f8-c6b7b06edfac" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="481e098a-99c6-476d-ad3c-2517bf6b5607" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e3618659-aa67-4b58-89a1-751538f9944d">
+          <propertyInstance Id="e15acd3d-aacd-46f2-a23e-04ad025084cb" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="179d59e9-475a-4952-aec3-b4bca415befc" />
+          </propertyInstance>
+          <elementDefinition Id="7ef24e5f-894c-4af7-86f5-f9a7cad4c272" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cf253904-3140-40b2-8cf6-21d7db6eeb33">
+          <propertyInstance Id="4444c1e9-b413-4b24-886c-191898349ab0" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9377d56-8a5d-41b8-b122-f0da9216fa6c" />
+          </propertyInstance>
+          <elementDefinition Id="ff5db210-0459-493e-a98c-c14a966ce420" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a950fc37-ed27-4bcf-8e1f-b9347f846b44">
+          <propertyInstance Id="64f1235a-c638-44c2-b198-b995454fb3a6" name="ProjectPath" value="ClassTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|EnumTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|InterfaceTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj|StructTemplate=..\iTree.DataBaseLib\iTree.DataBaseLib.csproj">
+            <elementDefinition Id="7fb90462-f410-4289-9fe4-8914bf64b08e" />
+          </propertyInstance>
+          <elementDefinition Id="fecc22c1-2db4-47f5-91ea-dd9173024af9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1c00a85c-75b1-42c0-bbc2-518c6ee54afd">
+          <propertyInstance Id="4364ec87-910c-4ac1-9344-104560644b17" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="852fa927-baff-4fe6-bb72-45c1ae79130e" />
+          </propertyInstance>
+          <elementDefinition Id="ff42423c-c052-47d4-b12e-b237afd578f0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="63099d87-abb9-48c6-9535-6f9d3695ab32">
+          <propertyInstance Id="9f074237-d97e-44f0-8a45-a3232d22314d" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="38b0cd52-91c8-4265-a687-190e3c443a7e" />
+          </propertyInstance>
+          <elementDefinition Id="0454cc41-0cda-41cc-92be-ffd44094fb83" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="82c50821-6f77-410c-8b94-a67fe8d87631">
+          <propertyInstance Id="8b4ddd87-4b5c-403b-92bb-f34a33457e71" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="c149f147-c326-4ada-943a-1c2b5e61bb97" />
+          </propertyInstance>
+          <elementDefinition Id="0f4828f9-055a-440a-a81e-fa7e8e32c4f8" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0a34785a-2e62-40f9-aea3-599d89e80698">
+          <propertyInstance Id="059c702c-f32e-4fe6-a574-bece8b6b4a84" name="Parameters">
+            <elementDefinition Id="d17fa891-23c0-44bd-8542-d5ca8c7d191c" />
+          </propertyInstance>
+          <elementDefinition Id="92ccb96d-cbee-401d-9234-f293fba43ca7" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <referencedType Id="1b3cb99a-969f-4174-bd6f-c3c2027eaeaf" name="EventSetParam" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetParam">
+        <elementDefinition Id="d79adf49-b726-4334-937a-f1de581f09b2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c16c065d-b1ff-4b16-9076-e7d71eaee7c6" name="EventSetParam" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetParam">
+        <elementDefinition Id="d79adf49-b726-4334-937a-f1de581f09b2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0fc9e104-ef07-4042-b3e9-0fefc7a0a8d2" name="EventSetParam" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetParam">
+        <elementDefinition Id="d79adf49-b726-4334-937a-f1de581f09b2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6ffaad9d-125e-494c-aa6d-b65da5707e83" name="EventSetsViewModel" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetsViewModel">
+        <elementDefinition Id="18cc69dd-35a6-4078-8d18-0d660786b784" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="67e9fea6-7075-456c-96dc-2de37fc56d28" name="Web.event">
+        <elementDefinition Id="9e469306-6db4-4a5f-aab4-7470fb477f75" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="1e8e4c15-df05-4cc2-b0b2-617678082da0" name="list" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <description>案件</description>
+              <elementDefinition Id="b3d36f05-2cfc-4c90-95ad-03c5eb1a594b" />
+              <targetEnds>
+                <association Id="20085e4a-17af-41eb-ae8e-d918f14f403e" isDerived="false" sourceEndRoleName="list" targetEndRoleName="eventFactory" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="373c0780-41fe-4261-8996-e981a6d217c9" LastKnownName="eventFactory" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="9e8cd3bb-b52f-4166-824b-c4691a9dc07f" name="list" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="44178ed1-2835-4aee-94c0-0ffcdc9fd093" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="374e027f-4a5a-4c57-b6e4-2e94b377a9cb" name="eventFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="3f2efaf8-cc2a-43a5-9a98-ea6515abf6df" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="cf0defcf-d9d2-4275-823c-160739972bdd" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="8bc47225-dc7a-4ed9-9bf6-b01e080386a2" name="vms" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aaca25b1-9149-4e87-b283-765a4bb58ece" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6ffaad9d-125e-494c-aa6d-b65da5707e83" LastKnownName="EventSetsViewModel" />
+                  </type_NamedElement>
+                </property>
+                <property Id="fdbf8d0b-4367-4d53-b9dc-490bbca552ea" name="param" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b6596bf0-3722-4025-8325-a1ef49f9567b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b2ee55dc-7a9d-49e9-8156-a84033ed555a" LastKnownName="EventSetParam" />
+                  </type_NamedElement>
+                </property>
+                <property Id="d44ad960-4007-4103-a10d-bb92b22c1fe8" name="vm" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="56f733e7-d968-4471-a923-e259afec4aed" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f8d39120-8c09-469f-918e-1dd89443abca" LastKnownName="EventSetViewModel" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="db2df485-0a7a-4e76-b8a9-5b28734d4caa" name="getEventSets" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="29a7ada4-43ba-4826-9fa4-1490de6ed41a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c1e7f25a-5355-448f-86eb-a229643b450e" name="param" direction="In" isUnique="false">
+                        <elementDefinition Id="ae0177fc-3d30-41b6-b08f-82d953ad4ba2" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="1b3cb99a-969f-4174-bd6f-c3c2027eaeaf" LastKnownName="EventSetParam" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="74776a60-a459-48f6-8225-d4f516d22920" name="search" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="4e00bc66-691b-45b7-b884-4f81c393c566" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="cc484ff3-7cbb-4cdc-a4d1-2125a5c06a9c" name="param" direction="In">
+                        <elementDefinition Id="14785d86-e8d1-4238-8136-bb69b18e021e" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="1b3cb99a-969f-4174-bd6f-c3c2027eaeaf" LastKnownName="EventSetParam" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="32bc629a-560c-42d2-8d0a-5a6f29979712" name="prevPage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="134b57d0-2aca-447f-8626-4e9d2af6e189" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e6a5f8c5-db44-416d-a141-52115768a1c8" name="num" direction="In">
+                        <elementDefinition Id="e8e03910-a763-4fec-a23d-855a817a8ead" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="110e5b80-25dc-41dc-a0ee-3259c35bae25" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="26fc1280-d529-4603-90cb-0d66ae25457b" name="nextPage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="653e2345-0b22-4e88-815d-199a5f08ad13" />
+                </operation>
+                <operation Id="cf877728-c0f6-4b23-89d0-f78c0e968d84" name="setPage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="884e3cbd-25ce-442e-885b-a136beb2451f" />
+                </operation>
+                <operation Id="a83acb59-98d9-4219-9bf6-e979f3e367c8" name="selectEventSet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="fe3a6fbf-e975-4862-9239-ee31e06873bb" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="f30561a1-2c55-4b7d-952e-0e5b7e14cb5d" name="eventId" direction="In">
+                        <elementDefinition Id="60ab28d6-fdf7-4fc2-93d5-bb36dfd5e594" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="110e5b80-25dc-41dc-a0ee-3259c35bae25" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="2e7e869c-9fe6-4354-953a-6087df7983c0" name="init" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="cb25ffc4-146b-4f37-aa23-5510b34d9439" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="373c0780-41fe-4261-8996-e981a6d217c9" name="eventFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d8648467-679e-4ddc-8463-043b41306353" />
+              <targetEnds>
+                <association Id="2fcce082-f598-48ed-8674-61eec9046b0d" isDerived="false" sourceEndRoleName="eventFactory" targetEndRoleName="EventController" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="5d792764-6dbd-4b8a-8bbe-7eeb75124eb4" LastKnownName="EventController" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="03cbc5d1-44d5-4d15-b311-7178f513a3f4" name="eventFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="d19ccb0c-95fc-449f-83f4-08d74d775c76" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c703487b-9145-4951-bd97-286c482b9cb5" name="EventController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="552b9948-c932-4787-9159-af504a45e1c0" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="dbf988c1-62f6-4b77-b0d4-08fc94da33ba" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="7b085b66-f193-41f8-8aab-bfc636747e20" name="getEventSets" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="40c0866f-db78-474c-ba15-734f0a666f39" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="8ea74a33-ea2c-4d40-870c-b86ed95cfb49" name="param" direction="In" isUnique="false">
+                        <elementDefinition Id="ffe26531-3c1f-4cef-8995-8ac2b036ee05" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="c16c065d-b1ff-4b16-9076-e7d71eaee7c6" LastKnownName="EventSetParam" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="81e2c430-c2d5-492a-9642-8f79fe05e9bb" name="getEventSet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <description>取得代辦案件資料</description>
+                  <elementDefinition Id="5775fcb0-e5fe-467b-abf4-2d46f413b445" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="694ba432-2ec1-4256-ac19-71077e987831" name="eventId" direction="In">
+                        <elementDefinition Id="950da134-eedf-4ed0-b210-feedc98f89cb" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="e5c6d546-df15-4756-9d5b-5f6df951d7d3" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="bf995446-198e-4d1c-b7e2-02feffbde4b9" direction="Return">
+                        <elementDefinition Id="d361ecb8-1b5b-4ac9-aae2-4710dd914a81" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="d89d637b-c167-4f02-9d9a-24a20b2c4965" LastKnownName="EventSetViewModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="7449a67b-37fa-4a77-ad36-60c8133d0df8" name="Web.Controller">
+        <elementDefinition Id="7a340ece-3c1f-4699-8435-89ba59de99bf" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="5d792764-6dbd-4b8a-8bbe-7eeb75124eb4" name="EventController" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="549ba730-6c3f-43b2-a1c8-3b9b4b500af3" />
+              <ownedOperationsInternal>
+                <operation Id="cca8b218-0b1e-4e2f-9c53-8443d7325c1c" name="GetEventSets" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <description>取得代辦案件集合</description>
+                  <elementDefinition Id="c0dd5da0-cd36-4acd-a9c6-c6f6344f01e3" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="94b0e701-e593-4bd9-92fe-9e86132d3292" name="param" direction="In" isUnique="false">
+                        <elementDefinition Id="743d17ae-2724-46bb-8a04-ac76ee8752fd" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="0fc9e104-ef07-4042-b3e9-0fefc7a0a8d2" LastKnownName="EventSetParam" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="15d98345-4b06-42c1-beed-60dc48ceba46" direction="Return">
+                        <elementDefinition Id="56b636c7-c002-4cd1-a0a5-338047da8949" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="d4f9d623-51e9-4e0b-b430-4ffc9924fded" LastKnownName="EventSetsViewModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="cadd7c6d-5e3e-4691-99e3-674e79e49104" name="GetEventSet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <description>取得代辦案件資料</description>
+                  <elementDefinition Id="57dc4a17-e6df-4044-b413-8771aa762fee" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="9fc165ac-0ff4-484e-8477-cfbe3f5d57b8" name="eventId" direction="In">
+                        <elementDefinition Id="45bec106-2bc8-49b3-82bc-e56c5f394a59" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="110e5b80-25dc-41dc-a0ee-3259c35bae25" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="41e75a73-f348-4f1a-b615-6731392c4027" direction="Return">
+                        <elementDefinition Id="0c634df6-e51f-4e3b-b9d0-8c3b074348f9" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="ddf02108-9358-41f9-8cb7-96708a0ce236" LastKnownName="EventSetViewModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="d4f9d623-51e9-4e0b-b430-4ffc9924fded" name="EventSetsViewModel" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetsViewModel">
+        <elementDefinition Id="18cc69dd-35a6-4078-8d18-0d660786b784" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b2ee55dc-7a9d-49e9-8156-a84033ed555a" name="EventSetParam" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetParam">
+        <elementDefinition Id="d79adf49-b726-4334-937a-f1de581f09b2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f8d39120-8c09-469f-918e-1dd89443abca" name="EventSetViewModel" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetViewModel">
+        <elementDefinition Id="56ccafc0-d923-421c-8e28-8c486ebe328c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="110e5b80-25dc-41dc-a0ee-3259c35bae25" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ddf02108-9358-41f9-8cb7-96708a0ce236" name="EventSetViewModel" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetViewModel">
+        <elementDefinition Id="56ccafc0-d923-421c-8e28-8c486ebe328c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e5c6d546-df15-4756-9d5b-5f6df951d7d3" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d89d637b-c167-4f02-9d9a-24a20b2c4965" name="EventSetViewModel" isAbstract="false" isLeaf="false" cachedFullName="iTree::Models.Event::EventSetViewModel">
+        <elementDefinition Id="56ccafc0-d923-421c-8e28-8c486ebe328c" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e7494551-87ce-4df4-a155-2f80aeebe646" name="iTree">
+    <elementDefinition Id="c704d61a-ded7-472a-8935-db9a9e88e680" />
+    <profileInstances>
+      <packageHasProfileInstances Id="cd68b9f1-f50d-4923-8546-ae7999a85ac1">
+        <profileInstance Id="8a2cc18c-3a09-4f9f-a843-bf3b864bc6a3" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="53b17774-e9f2-4c5f-8c49-d42fb0a2353a">
+        <profileInstance Id="44ad0793-7cd1-43e8-b093-e7ddacd2d668" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c061cff0-94c4-4a20-8671-83de9b8ba197">
+        <profileInstance Id="ec24c3db-fec2-4299-a5f7-d4460f13dc7b" name="CSharpProfile">
+          <elementDefinition Id="4102fbf4-e291-4427-85e3-42bb60dcb2ea" />
+        </profileInstance>
+        <elementDefinition Id="54cfd21d-3625-4c1a-ae18-e873c86cc1a6" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="43430bd9-c6e3-4c2b-9463-954faa414c8a">
+        <profileInstance Id="ba171a6a-325f-4691-b8e5-b207714cc7c2" name="TextTemplateBindings">
+          <elementDefinition Id="d17e1b24-7854-4f85-a3f4-3c2bd718c791" />
+        </profileInstance>
+        <elementDefinition Id="e2324d99-91bd-4bd1-a43c-5c5459fcaff6" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

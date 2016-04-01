@@ -189,6 +189,37 @@
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b8a63028-5bec-4d23-9137-78eb3f1b9409" name="EventSets" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <description>代辦事件 Entity</description>
+        <elementDefinition Id="d1b66ab3-b7ea-4e83-91c8-7930710c7123" />
+        <ownedAttributesInternal>
+          <property Id="a1e3812f-1a80-447a-b575-7f958e1eddd8" name="EventId" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <description>事件序號</description>
+            <elementDefinition Id="4a5c2441-91bc-4a71-b594-aeacbaa1803d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3bdcdb4b-2ea6-43d8-a570-1a0468d750f8" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="692fb1cd-a8c2-4a09-adb0-3f4b1e6cf11b" name="EventType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="20aa82bb-1cd9-4403-95df-0d08227b1a2c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="18ebb573-283a-4063-b405-bd68812f9fd3" LastKnownName="byte" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3bdcdb4b-2ea6-43d8-a570-1a0468d750f8" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="18ebb573-283a-4063-b405-bd68812f9fd3" name="byte" isAbstract="false" isLeaf="false" cachedFullName="byte">
+        <elementDefinition Id="8757ea19-f084-41d7-8f24-4f05f761a5aa" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="8cbd5322-898b-442e-9dde-9f24bbc4d608" name="iTree.DataBase">
     <elementDefinition Id="c704d61a-ded7-472a-8935-db9a9e88e680" />

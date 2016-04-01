@@ -845,7 +845,7 @@
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>
-  <package Id="bde4b2c7-7e7e-4ac3-8c73-30b8fb81e123" name="iTree.DataBase">
+  <package Id="bde4b2c7-7e7e-4ac3-8c73-30b8fb81e123" name="iTree">
     <elementDefinition Id="c704d61a-ded7-472a-8935-db9a9e88e680" />
     <profileInstances>
       <packageHasProfileInstances Id="59c2d380-e7d3-4667-8e9a-dd6c66724d1d">

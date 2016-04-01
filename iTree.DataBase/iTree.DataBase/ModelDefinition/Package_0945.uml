@@ -164,5 +164,54 @@
         isLeaf="false"
         isActiveClass="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d1b66ab3-b7ea-4e83-91c8-7930710c7123"
+        name="EventSets"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <description>代辦事件 Entity</description>
+        <ownedAttributesInternal>
+          <property
+            Id="4a5c2441-91bc-4a71-b594-aeacbaa1803d"
+            name="EventId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <description>事件序號</description>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="iTree.DataBase.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="20aa82bb-1cd9-4403-95df-0d08227b1a2c"
+            name="EventType"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="8757ea19-f084-41d7-8f24-4f05f761a5aa"
+                LastKnownName="byte"
+                LastKnownLocation="Package_0950.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>

@@ -415,52 +415,6 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="d54cddaa-e7d7-45f3-b273-8a6c8b2589f3"
-        name="PageParam"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedAttributesInternal>
-          <property
-            Id="7d4dbfa9-bd85-46be-87eb-9117490f55b7"
-            name="ItemsPerPage"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
-                LastKnownLocation="iTree.DataBase.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="932954a9-597f-496e-ac89-b2b9ea5077aa"
-            name="CurrentPage"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
-                LastKnownLocation="iTree.DataBase.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
         Id="331643a8-ce69-4dbf-9b6e-3496ca927120"
         name="TreeItemParam"
         isAbstract="false"
@@ -473,7 +427,7 @@
             <classMoniker
               Id="d54cddaa-e7d7-45f3-b273-8a6c8b2589f3"
               LastKnownName="PageParam"
-              LastKnownLocation="Package_1012.uml" />
+              LastKnownLocation="Package_0951.uml" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -489,9 +443,9 @@
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
                 LastKnownLocation="iTree.DataBase.uml" />
             </type_NamedElement>
           </property>
@@ -506,27 +460,9 @@
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
-                LastKnownLocation="iTree.DataBase.uml" />
-            </type_NamedElement>
-          </property>
-          <property
-            Id="80dc7580-8f48-4110-b87b-322f9e4e4bd2"
-            name="Owner"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
                 LastKnownLocation="iTree.DataBase.uml" />
             </type_NamedElement>
           </property>
@@ -542,9 +478,9 @@
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="6424d4bb-8d92-4bd8-a8c1-a539d8ef5c40"
-                LastKnownName="int"
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
                 LastKnownLocation="iTree.DataBase.uml" />
             </type_NamedElement>
           </property>
@@ -560,9 +496,9 @@
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="1119ab47-3010-41a6-a575-acc337c4dbdb"
-                LastKnownName="string"
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
                 LastKnownLocation="iTree.DataBase.uml" />
             </type_NamedElement>
           </property>
@@ -894,6 +830,7 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false">
+            <description>每頁數量</description>
             <appliedStereotypesInternal>
               <stereotypeInstance
                 Id="fa9a6177-6661-4eb7-960c-8f0e6448cb28"
